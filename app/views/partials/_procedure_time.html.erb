@@ -1,0 +1,4 @@
+
+<%= javascript_include_tag "https://www.google.com/jsapi", "chartkick" %>
+
+<%= area_chart Procedure.group(:id).maximum(:length_of_time) %>
