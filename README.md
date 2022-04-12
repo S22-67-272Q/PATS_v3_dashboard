@@ -20,6 +20,9 @@ The populate script will also create a vet user to login into the system.  The u
 
 To create an Admin account to access the PATS main admin dashboard, run `rails db:seed`. This will create a vet admin user. The username is "vet@pats.org" and the password is `yodell`.
 
+If you would like to access the admin dashboard go to "localhost:3000/admin" and log in using the credentials provided above.
+
+
 If you want to load the testing context into the development database, you can do the following:
 
 1. if you have previously populated the database, drop it and rerun `rails db:migrate` to recreate a blank db.
